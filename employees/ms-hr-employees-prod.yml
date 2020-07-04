@@ -1,7 +1,8 @@
-server:
-  port: 8081
- 
-eureka: 
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8700/eureka/
+spring:
+  jpa:
+    show-sql: false
+    properties:
+      hibernate.format_sql: false
+
+info:
+  environment: production
